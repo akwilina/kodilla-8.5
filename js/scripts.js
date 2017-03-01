@@ -4,5 +4,5 @@ var value = (a * a) + (2 * a * b) - (b * b) ;
 
 console.log('Pole trójkąta o podstawie a: ' + a + ' i wysokości h: ' + b + ' wynosi: ' + value);
 
-var triangleArea = value > 0 ? value == 0 ? 'wynik wynosi 0' : 'wynik ujemny' : 'wynik dodatni';
+var triangleArea = value > 0 ? (value == 0 ? 'wynik wynosi 0' : 'wynik ujemny') : 'wynik dodatni';
 console.log(triangleArea);
